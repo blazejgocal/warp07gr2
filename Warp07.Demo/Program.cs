@@ -1,2 +1,1 @@
-Console.WriteLine("Podaj imie:");
-Console.ReadLine();
+Console.WriteLine("Podaj imie:")
