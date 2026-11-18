@@ -2,6 +2,13 @@ name: Build .NET project       # klucz i wartość
 
 on:                            # obiekt zagnieżdżony
   workflow_dispatch:
+  push:
+    branches:
+      - main
+
+env:
+  PROJECT_PATH: "Warp07.Demo"
+  DOTNET_VERSION: 
 
 jobs:
   build:
