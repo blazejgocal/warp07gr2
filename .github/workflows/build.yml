@@ -5,6 +5,10 @@ on:                            # obiekt zagnieżdżony
   push:
     branches:
       - main
+      
+pull_request:
+  branches:
+    - main
 
 env:
   PROJECT_PATH: "Warp07.Demo"
